@@ -4,7 +4,7 @@ public class Main {
 
         for (int i = 1; i <= openLocker.length; i++) {
             for (int j = i; j <= openLocker.length; j += i) {
-                if (openLocker[j - 1] == true) {
+                if (openLocker[j - 1]) {
                     openLocker[j - 1] = false;
                 }
                 else {
